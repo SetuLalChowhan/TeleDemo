@@ -28,8 +28,8 @@ export default function ContactPage() {
         <div className="grid md:grid-cols-3 gap-6 mb-10">
           {[
             { icon: <Mail className="w-5 h-5" />, title: 'Email', value: 'support@mediconnect.com' },
-            { icon: <Phone className="w-5 h-5" />, title: 'Phone', value: '+1 (555) 123-4567' },
-            { icon: <MapPin className="w-5 h-5" />, title: 'Address', value: '123 Healthcare Blvd, Medical City' },
+            { icon: <Phone className="w-5 h-5" />, title: 'Phone', value: '+880 1700-000000' },
+            { icon: <MapPin className="w-5 h-5" />, title: 'Address', value: 'Gulshan-2, Dhaka 1212, Bangladesh' },
           ].map((item, i) => (
             <Card key={i} className="p-5 text-center">
               <div className="w-10 h-10 rounded-lg bg-primary-50 text-primary-600 flex items-center justify-center mx-auto mb-3">{item.icon}</div>

@@ -3,21 +3,17 @@ export function cn(...inputs: (string | undefined | null | false)[]) {
 }
 
 export function formatCurrency(amount: number): string {
-  return new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD',
-    minimumFractionDigits: 0,
-  }).format(amount);
+  return `৳${amount.toLocaleString('en-IN')}`;
 }
 
 export function formatDate(dateStr: string): string {
   const date = new Date(dateStr);
-  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  return date.toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
 export function formatDateShort(dateStr: string): string {
   const date = new Date(dateStr);
-  return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  return date.toLocaleDateString('en-IN', { month: 'short', day: 'numeric', year: 'numeric' });
 }
 
 export function formatFileSize(bytes: number): string {

@@ -10,7 +10,7 @@ import StatusBadge from '@/components/ui/StatusBadge';
 import Modal from '@/components/ui/Modal';
 import ConfirmationDialog from '@/components/ui/ConfirmationDialog';
 import { pendingVerificationDoctors, mockDoctors } from '@/lib/mock-data';
-import { formatFileSize, formatDateShort } from '@/lib/utils';
+import { formatFileSize, formatDateShort, formatCurrency } from '@/lib/utils';
 
 export default function AdminVerificationDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
@@ -96,7 +96,7 @@ export default function AdminVerificationDetailPage({ params }: { params: Promis
                   <div><p className="text-xs text-gray-500">Degree</p><p className="text-sm font-medium text-gray-900">{doctor.degree}</p></div>
                   <div><p className="text-xs text-gray-500">Experience</p><p className="text-sm font-medium text-gray-900">{doctor.experience} years</p></div>
                   <div><p className="text-xs text-gray-500">Languages</p><p className="text-sm font-medium text-gray-900">{doctor.languages.join(', ')}</p></div>
-                  <div><p className="text-xs text-gray-500">Fee</p><p className="text-sm font-medium text-gray-900">${doctor.consultationFee}</p></div>
+                  <div><p className="text-xs text-gray-500">Fee</p><p className="text-sm font-medium text-gray-900">{formatCurrency(doctor.consultationFee)}</p></div>
                 </div>
                 <div className="mt-4">
                   <p className="text-xs text-gray-500">Bio</p>

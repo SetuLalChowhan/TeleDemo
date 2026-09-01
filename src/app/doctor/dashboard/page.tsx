@@ -18,10 +18,10 @@ export default function DoctorDashboard() {
   const upcoming = mockAppointments.filter(a => ['confirmed', 'pending'].includes(a.status));
 
   const schedule = [
-    { time: '09:00 AM', patient: 'John Smith', status: 'completed', age: 41, gender: 'Male' },
-    { time: '10:00 AM', patient: 'Maria Garcia', status: 'in_progress', age: 36, gender: 'Female' },
-    { time: '11:30 AM', patient: 'David Lee', status: 'confirmed', age: 48, gender: 'Male' },
-    { time: '02:00 PM', patient: 'Sarah Wilson', status: 'confirmed', age: 29, gender: 'Female' },
+    { time: '09:00 AM', patient: 'Rahim Uddin', status: 'completed', age: 41, gender: 'Male' },
+    { time: '10:00 AM', patient: 'Fatima Akter', status: 'in_progress', age: 36, gender: 'Female' },
+    { time: '11:30 AM', patient: 'Kamal Hossain', status: 'confirmed', age: 48, gender: 'Male' },
+    { time: '02:00 PM', patient: 'Nusrat Jahan', status: 'confirmed', age: 29, gender: 'Female' },
   ];
 
   return (

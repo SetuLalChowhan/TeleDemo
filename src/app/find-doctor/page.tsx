@@ -89,8 +89,8 @@ function FindDoctorContent() {
           {showFilters && (
             <div className="mt-3 pt-3 border-t border-gray-100 grid sm:grid-cols-3 gap-2">
               {[
-                { label: 'Min Fee ($)', value: minFee, onChange: setMinFee, placeholder: '0' },
-                { label: 'Max Fee ($)', value: maxFee, onChange: setMaxFee, placeholder: '500' },
+                { label: 'Min Fee (৳)', value: minFee, onChange: setMinFee, placeholder: '0' },
+                { label: 'Max Fee (৳)', value: maxFee, onChange: setMaxFee, placeholder: '5000' },
                 { label: 'Min Experience', value: minExperience, onChange: setMinExperience, placeholder: '0' },
               ].map(f => (
                 <div key={f.label}>
