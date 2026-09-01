@@ -8,9 +8,9 @@ import Avatar from '@/components/ui/Avatar';
 
 export default function PatientProfilePage() {
   const [form, setForm] = useState({
-    name: 'John Smith', email: 'john.smith@email.com', phone: '+1 (555) 111-2222',
-    dob: '1985-06-15', gender: 'Male', address: '123 Main St, New York, NY 10001',
-    emergencyContact: 'Jane Smith', emergencyPhone: '+1 (555) 111-3333',
+    name: 'Sabahat Karim', email: 'sabahat.karim@email.com', phone: '+880 1912-333555',
+    dob: '1985-06-15', gender: 'Male', address: 'House 12, Road 5, Gulshan-2, Dhaka 1212',
+    emergencyContact: 'Farhana Karim', emergencyPhone: '+880 1912-333666',
   });
   const [saved, setSaved] = useState(false);
 

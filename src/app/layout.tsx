@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "MediConnect - Telemedicine Platform",
-  description: "Connect with trusted doctors from anywhere. Professional telemedicine consultations made easy.",
+  title: "MediConnect - Online Doctor Consultation",
+  description: "Talk to verified doctors from anywhere. Book online consultations, get medical advice, and manage your health — all in one place.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

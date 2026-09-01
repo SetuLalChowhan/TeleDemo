@@ -10,13 +10,13 @@ import { ArrowRight } from 'lucide-react';
 
 const specialtyIcons: Record<string, React.ReactNode> = {
   'General Physician': <Stethoscope className="w-8 h-8" />,
+  'Medicine Specialist': <Syringe className="w-8 h-8" />,
   'Cardiologist': <Heart className="w-8 h-8" />,
   'Dermatologist': <Sparkles className="w-8 h-8" />,
   'Gynecologist': <ShieldCheck className="w-8 h-8" />,
   'Pediatrician': <Baby className="w-8 h-8" />,
   'Neurologist': <Brain className="w-8 h-8" />,
   'Orthopedic': <Bone className="w-8 h-8" />,
-  'Dentist': <Syringe className="w-8 h-8" />,
 };
 
 export default function SpecialtiesPage() {

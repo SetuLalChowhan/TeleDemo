@@ -192,7 +192,7 @@ export default function BookingPage({ params }: { params: Promise<{ doctorId: st
                 <h2 className="font-semibold text-gray-900 mb-4">Your Information</h2>
                 <Input label="Full Name" value={patientInfo.name} onChange={(e) => setPatientInfo({ ...patientInfo, name: e.target.value })} required />
                 <Input label="Email" type="email" value={patientInfo.email} onChange={(e) => setPatientInfo({ ...patientInfo, email: e.target.value })} required />
-                <Input label="Phone" type="tel" value={patientInfo.phone} onChange={(e) => setPatientInfo({ ...patientInfo, phone: e.target.value })} required placeholder="+1 (555) 123-4567" />
+                <Input label="Phone" type="tel" value={patientInfo.phone} onChange={(e) => setPatientInfo({ ...patientInfo, phone: e.target.value })} required placeholder="+880 1XXXXXXXXX" />
               </div>
             )}
 
