@@ -44,7 +44,7 @@ export default function DoctorCard({ doctor, onViewProfile, onBook }: DoctorCard
         </div>
         <div className="text-right shrink-0">
           <p className="text-base font-bold text-gray-900 tabular-nums">{formatCurrency(doctor.consultationFee)}</p>
-          <p className="text-[0.6875rem] text-gray-400">per visit</p>
+          <p className="text-[0.6875rem] text-gray-400">per consultation</p>
         </div>
       </div>
 

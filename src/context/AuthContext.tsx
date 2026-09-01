@@ -23,9 +23,9 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 const demoUsers: Record<UserRole, AuthUser> = {
-  patient: { id: 'pat-1', name: 'John Smith', email: 'john@email.com', role: 'patient' },
-  doctor: { id: 'doc-1', name: 'Dr. Sarah Johnson', email: 'sarah@telemed.com', role: 'doctor' },
-  admin: { id: 'admin-1', name: 'Admin User', email: 'admin@telemed.com', role: 'admin' },
+  patient: { id: 'pat-1', name: 'Sabahat Karim', email: 'sabahat@email.com', role: 'patient' },
+  doctor: { id: 'doc-1', name: 'Dr. Rafiq Ahmed', email: 'rafiq@mediconnect.com', role: 'doctor' },
+  admin: { id: 'admin-1', name: 'Admin', email: 'admin@mediconnect.com', role: 'admin' },
 };
 
 export function AuthProvider({ children }: { children: ReactNode }) {

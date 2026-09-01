@@ -31,11 +31,11 @@ export default function AdminRevenuePage() {
             <CardContent>
               <div className="space-y-3">
                 {[
-                  { name: 'Dr. Sarah Johnson', amount: 4200, consultations: 28 },
-                  { name: 'Dr. Michael Chen', amount: 3600, consultations: 30 },
-                  { name: 'Dr. Emily Rodriguez', amount: 3200, consultations: 32 },
-                  { name: 'Dr. James Wilson', amount: 2800, consultations: 35 },
-                  { name: 'Dr. Priya Patel', amount: 2400, consultations: 18 },
+                  { name: 'Dr. Rafiq Ahmed', amount: 4200, consultations: 28 },
+                  { name: 'Dr. Nasreen Akhter', amount: 3600, consultations: 30 },
+                  { name: 'Dr. Kamal Hossain', amount: 3200, consultations: 32 },
+                  { name: 'Dr. Farhana Begum', amount: 2800, consultations: 35 },
+                  { name: 'Dr. Anisur Rahman', amount: 2400, consultations: 18 },
                 ].map((d, i) => (
                   <div key={i} className="flex items-center gap-3">
                     <Avatar name={d.name} size="sm" />

@@ -14,7 +14,7 @@ export default function Footer() {
               </div>
               <span className="text-base font-bold text-white">MediConnect</span>
             </Link>
-            <p className="text-sm leading-relaxed mb-4">Professional telemedicine consultations made easy.</p>
+            <p className="text-sm leading-relaxed mb-4">Talk to a qualified doctor from anywhere in Bangladesh.</p>
             <div className="flex gap-2">
               {['FB', 'TW', 'LI', 'IG'].map((label, i) => (
                 <a key={i} href="#" className="w-7 h-7 rounded-md bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors text-[0.625rem] font-bold text-gray-400">
@@ -42,7 +42,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold text-[0.8125rem] mb-3">Specialties</h3>
             <ul className="space-y-1.5 text-sm">
-              {['General Physician', 'Cardiologist', 'Dermatologist', 'Pediatrician', 'Neurologist'].map((item) => (
+              {['General Physician', 'Medicine Specialist', 'Cardiologist', 'Pediatrician', 'Gynecologist'].map((item) => (
                 <li key={item}><Link href="/find-doctor" className="hover:text-white transition-colors">{item}</Link></li>
               ))}
             </ul>
@@ -52,8 +52,8 @@ export default function Footer() {
             <h3 className="text-white font-semibold text-[0.8125rem] mb-3">Contact</h3>
             <ul className="space-y-2.5 text-sm">
               <li className="flex items-center gap-2"><Mail className="w-4 h-4 shrink-0 opacity-60" /> support@mediconnect.com</li>
-              <li className="flex items-center gap-2"><Phone className="w-4 h-4 shrink-0 opacity-60" /> +1 (555) 123-4567</li>
-              <li className="flex items-start gap-2"><MapPin className="w-4 h-4 shrink-0 mt-0.5 opacity-60" /> 123 Healthcare Blvd, Medical City</li>
+              <li className="flex items-center gap-2"><Phone className="w-4 h-4 shrink-0 opacity-60" /> +880 1700-000000</li>
+              <li className="flex items-start gap-2"><MapPin className="w-4 h-4 shrink-0 mt-0.5 opacity-60" /> 123, Gulshan Avenue, Dhaka 1212</li>
             </ul>
           </div>
         </div>

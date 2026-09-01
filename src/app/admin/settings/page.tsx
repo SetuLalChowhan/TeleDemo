@@ -30,7 +30,7 @@ export default function AdminSettingsPage() {
             <div className="space-y-4">
               <Input label="Platform Name" defaultValue="MediConnect" />
               <Input label="Support Email" type="email" defaultValue="support@mediconnect.com" />
-              <Input label="Support Phone" defaultValue="+1 (555) 123-4567" />
+              <Input label="Support Phone" defaultValue="+880 1700-000000" />
               <Input label="Platform URL" defaultValue="https://mediconnect.com" />
             </div>
           </CardContent>

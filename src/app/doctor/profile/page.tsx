@@ -10,10 +10,10 @@ import VerificationBadge from '@/components/ui/VerificationBadge';
 
 export default function DoctorProfilePage() {
   const [form, setForm] = useState({
-    name: 'Dr. Sarah Johnson', email: 'sarah.johnson@telemed.com', phone: '+1 (555) 123-4567',
-    specialty: 'Cardiologist', qualification: 'MD, FACC', degree: 'Harvard Medical School',
-    experience: '15', fee: '150', languages: 'English, Spanish',
-    bio: 'Dr. Sarah Johnson is a board-certified cardiologist with over 15 years of experience.',
+    name: 'Dr. Rafiq Ahmed', email: 'rafiq.ahmed@mediconnect.com', phone: '+880 1712-345678',
+    specialty: 'Cardiologist', qualification: 'MBBS, FCPS (Cardiology)', degree: 'Dhaka Medical College',
+    experience: '15', fee: '1500', languages: 'Bengali, English',
+    bio: 'Dr. Rafiq Ahmed is a board-certified cardiologist with over 15 years of experience in Dhaka.',
   });
   const [googleConnected, setGoogleConnected] = useState(true);
   const [saved, setSaved] = useState(false);
@@ -57,7 +57,7 @@ export default function DoctorProfilePage() {
               <Input label="Qualification" value={form.qualification} onChange={(e) => setForm({ ...form, qualification: e.target.value })} />
               <Input label="Medical Degree" value={form.degree} onChange={(e) => setForm({ ...form, degree: e.target.value })} />
               <Input label="Experience (years)" type="number" value={form.experience} onChange={(e) => setForm({ ...form, experience: e.target.value })} />
-              <Input label="Consultation Fee ($)" type="number" value={form.fee} onChange={(e) => setForm({ ...form, fee: e.target.value })} />
+              <Input label="Consultation Fee (৳)" type="number" value={form.fee} onChange={(e) => setForm({ ...form, fee: e.target.value })} />
               <Input label="Languages" value={form.languages} onChange={(e) => setForm({ ...form, languages: e.target.value })} />
             </div>
             <div className="mt-4">
